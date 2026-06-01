@@ -1,0 +1,26 @@
+{
+  "name": "tradescans",
+  "metadata": {
+    "description": "TradeScans plugins for Claude — trading journal, options strategy engine, and community board."
+  },
+  "owner": {
+    "name": "Jeffery Vincent"
+  },
+  "plugins": [
+    {
+      "name": "tradescans",
+      "source": "./plugins/tradescans",
+      "description": "Access your TradeScans trading journal from Claude: read trades and open positions, log and close trades, run the options strategy engine, and read or post to the message board.",
+      "homepage": "https://tradescans.com",
+      "license": "MIT",
+      "category": "finance",
+      "keywords": [
+        "trading",
+        "options",
+        "trade-journal",
+        "tradescans",
+        "strategy-engine"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "tradescans-mcp-server",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Zero-dependency stdio MCP server for the TradeScans Claude plugin",
+  "engines": {
+    "node": ">=18"
+  },
+  "bin": {
+    "tradescans-mcp": "index.mjs"
+  }
+}

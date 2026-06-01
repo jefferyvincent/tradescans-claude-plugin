@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "tradescans": {
+      "command": "node",
+      "args": ["${CLAUDE_PLUGIN_ROOT}/mcp-server/index.mjs"],
+      "env": {
+        "TRADESCANS_API_KEY": "${TRADESCANS_API_KEY}"
+      }
+    }
+  }
+}
